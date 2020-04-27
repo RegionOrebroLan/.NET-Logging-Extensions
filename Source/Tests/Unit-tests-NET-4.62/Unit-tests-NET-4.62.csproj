@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="Build\Build.props" />
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Helpers\Mocks\Mocks.csproj" />
+	</ItemGroup>
+	<Import Project="Build\Build.targets" />
+</Project>

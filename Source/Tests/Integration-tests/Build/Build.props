@@ -1,0 +1,5 @@
+<Project>
+	<PropertyGroup>
+		<AssemblyName>RegionOrebroLan.Logging.IntegrationTests</AssemblyName>
+	</PropertyGroup>
+</Project>
