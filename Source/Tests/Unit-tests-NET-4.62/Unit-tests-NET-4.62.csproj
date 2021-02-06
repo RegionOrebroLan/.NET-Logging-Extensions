@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<RootNamespace>UnitTestsNet462</RootNamespace>
-		<TargetFramework>net462</TargetFramework>
-	</PropertyGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\Mocks\Mocks.csproj" />
-	</ItemGroup>
-</Project>
