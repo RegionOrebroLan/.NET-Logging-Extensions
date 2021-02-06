@@ -1,21 +1,23 @@
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Mocks;
 using RegionOrebroLan.Logging.Extensions;
-using RegionOrebroLan.Logging.Helpers.Mocks;
 
-namespace RegionOrebroLan.Logging.UnitTests.Extensions
+namespace UnitTests.Extensions
 {
-	[CLSCompliant(false)]
 	[TestClass]
 	public class LoggerExtensionTest
 	{
 		#region Methods
 
 		[TestMethod]
-		public void LogErrorIfEnabled_Test()
+		public async Task LogErrorIfEnabled_Test()
 		{
+			await Task.CompletedTask;
+
 			var logger = new LoggerMock();
 			logger.LogErrorIfEnabled("Message");
 			Assert.AreEqual(0, logger.BeginScopeCalls.Count);

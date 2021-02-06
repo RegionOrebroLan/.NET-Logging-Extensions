@@ -1,6 +1,0 @@
-<Project>
-	<Import Project="..\Directory.Build.targets" />
-	<ItemGroup>
-		<PackageReference Include="Moq" Version="4.14" />
-	</ItemGroup>
-</Project>

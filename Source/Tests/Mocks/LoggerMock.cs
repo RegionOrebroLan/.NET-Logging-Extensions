@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using Moq;
 
-namespace RegionOrebroLan.Logging.Helpers.Mocks
+namespace Mocks
 {
-	[CLSCompliant(false)]
 	public class LoggerMock : ILogger
 	{
 		#region Properties
