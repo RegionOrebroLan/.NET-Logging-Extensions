@@ -1,11 +1,14 @@
 <Project>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0'">
+		<PackageReferenceVersion>6.0.0</PackageReferenceVersion>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(TargetFramework)' == 'net5.0'">
-		<PackageReferenceVersion>5.0.0</PackageReferenceVersion>
+		<PackageReferenceVersion>6.0.0</PackageReferenceVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
-		<PackageReferenceVersion>3.1.0</PackageReferenceVersion>
+		<PackageReferenceVersion>6.0.0</PackageReferenceVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-		<PackageReferenceVersion>5.0.0</PackageReferenceVersion>
+		<PackageReferenceVersion>6.0.0</PackageReferenceVersion>
 	</PropertyGroup>
 </Project>
